@@ -120,10 +120,10 @@ article {
 	margin-bottom: 48px;
 	margin-left: clamp(48px, 90px, 200px);
 	margin-right: clamp(48px, 90px, 200px);
-	transition: 200ms;
+	transition: 500ms;
 }
 article:hover {
-	transform: scale(1.05);
+	transform: scale(1.02);
 }
 
 article > h3 {
