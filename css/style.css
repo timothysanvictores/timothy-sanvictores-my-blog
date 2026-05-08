@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap");
+
+:root {
+	--primary-color: #2BAE66;
+	--secondary-color: #FCF6F5;
+
+	--text-color: #FCF6F5;
+}
+
+/* BASE */
+
+html, body {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1440px;
+}
+
+h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3 {
+	color: var(--primary-color);
+}
+
+h4, p {
+	color: var(--text-color);
+}
+
+h1 {
+	font-size: 52px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 34px;
+}
+
+h4 {
+	font-size: 22px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.quicksand-light {
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.quicksand-regular {
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.quicksand-bold {
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.noto-serif-regular {
+	font-family: "Noto Serif", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+.noto-serif-light {
+	font-family: "Noto Serif", serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+.noto-serif-bold {
+	font-family: "Noto Serif", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+/* LAYOUT */
+
+header {
+	text-align: center;
+	padding: 32px;
+}
+
+body {
+	background-color: var(--secondary-color);
+}
+
+/* COMPONENTS */
+
+article {
+	display: grid;
+	background-color: var(--primary-color);
+	border-radius: 24px;
+	border: 1px solid var(--primary-color);
+	padding: 32px 32px 0px 32px;
+	margin-bottom: 48px;
+	margin-left: clamp(48px, 90px, 200px);
+	margin-right: clamp(48px, 90px, 200px);
+	transition: 200ms;
+}
+article:hover {
+	transform: scale(1.05);
+}
+
+article > h3 {
+	padding: 24px 32px;
+	margin: 24px -32px 0 -32px;
+	border-radius: 0px 0px 23px 23px;
+	background-color: var(--secondary-color);
+}
+
+/* UTILITIES */
+
+.remove-margin-top {
+	margin-top: 0px;
+}
+
+.hidden {
+	display: none;
+}
