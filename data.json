@@ -1,5 +1,17 @@
 [
 	{
+		"week": "6",
+		"retrospective_1": "",
+		"retrospective_2": "",
+		"retrospective_3": "",
+		"retrospective_4": "",
+		"monday": "Today my focus is to move my blog to a database on a server using supabase. I will also continue creating my design strategy document.",
+		"tuesday": "Today my focus is to continue creating my branding as well as my HIFI designs",
+		"wednesday": "Today my focus is to continue creating my HIFI designs as well as prepare my WIP02 presentation to showcase what UI work I have done so far.",
+		"thursday": "Today my focus is to present my WIP02. After the WIP I will continue to develop my UI and prototypes for user testing.",
+		"friday": ""
+	},
+	{
 		"week": "5",
 		"retrospective_1": "This week was very focused on refining my user flows and collating all the information for my design strategy document.",
 		"retrospective_2": "My main pain points this week were struggling to find time to develop my user flows and prototypes for user testing. Another pain point I had this week was structuring my design strategy document and finding all the information I needed.",

@@ -8,7 +8,7 @@ async function loadData() {
 		document.querySelector("#output").innerHTML += `
 		<article class="">
 			<section>
-				<h4 class="quicksand-regular remove-margin-top">Retrospective</h3>
+				<h4 class="quicksand-regular remove-margin-top">Retrospective</h4>
 				<p class="quicksand-light">
 					${data[p].retrospective_1}
 					<br>
@@ -21,7 +21,7 @@ async function loadData() {
 					<br>
 					${data[p].retrospective_4}
 				</p>
-				<h4 class="quicksand-regular">Daily Standup</h3>
+				<h4 class="quicksand-regular">Daily Standup</h4>
 				<p class="quicksand-light">
 					<u>Monday:</u> ${data[p].monday}
 					<br>
@@ -45,5 +45,4 @@ async function loadData() {
 		`;
 	}
 }
-
 loadData();
