@@ -1,15 +1,15 @@
 [
 	{
 		"week": "6",
-		"retrospective_1": "",
-		"retrospective_2": "",
-		"retrospective_3": "",
-		"retrospective_4": "",
+		"retrospective_1": "This week my main focuses were making my WIP 02 Presentation as well as finalizing my HIFI design and user flows for my Verso platform. After my WIP 02 I got some useful feedback to finalize what pages I was missing and what things I needed to think about finalizing.",
+		"retrospective_2": "Alot of my designs are lacking prototyping which has affected my ability to get good user testing feedback.",
+		"retrospective_3": "I cam improve on making sure I prioritize and schedule my tasks better in the future so that I can get the information and research I need on time for deadlines.",
+		"retrospective_4": "For the next sprint I am going to be very focused on user testing and iteration in my HIFI design.",
 		"monday": "Today my focus is to move my blog to a database on a server using supabase. I will also continue creating my design strategy document.",
 		"tuesday": "Today my focus is to continue creating my branding as well as my HIFI designs",
 		"wednesday": "Today my focus is to continue creating my HIFI designs as well as prepare my WIP02 presentation to showcase what UI work I have done so far.",
 		"thursday": "Today my focus is to present my WIP02. After the WIP I will continue to develop my UI and prototypes for user testing.",
-		"friday": ""
+		"friday": "Today my focus is to finalize my site map / HIFI design."
 	},
 	{
 		"week": "5",
